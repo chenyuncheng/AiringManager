@@ -38,6 +38,11 @@ public class AiringController extends BaseController {
     @Autowired
     private IAiringService airingService;
 
+    public String test(){
+
+        return "test";
+    }
+
     /**
      * 设备管理页
      *
